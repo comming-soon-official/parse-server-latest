@@ -9,7 +9,7 @@ const port = 1337
 app.use(cors())
 
 const Server = new ParseServer({
-    databaseURI: 'mongodb://172.17.0.2:27017/students',
+    databaseURI: 'mongodb://127.0.0.1:27017/students', //replace with your mongodb URI
     cloud: './cloud/main.js',
     appId: 'myAppId',
     masterKey: 'myMasterKey',
