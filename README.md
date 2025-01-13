@@ -6,8 +6,8 @@
 2. Install dependencies:
 
 ```bash
-# In root directory (server)
-npm install
+# In server directory
+cd server && npm install
 
 # In react-app directory
 cd react-app && npm install
@@ -32,6 +32,7 @@ Edit these files and replace the parameters with your own:
 1. Start Parse Server:
 
 ```bash
+cd server
 npm start
 ```
 
